@@ -1,0 +1,2 @@
+curI = iFactory.GenIndividual("MNNNNNNNNNN".ToCharArray());
+curP = pFactory.GenPosition(7f, 0.5f, 6.8f, -7.57f, 5.02f, -7.44f);

@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{ngerman}
+\usepackage[utf8]{inputenc}
+\usepackage{paralist}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{fontawesome}
+
+
+\setlength{\droptitle}{-5cm}
+\title{Präsentation für IMAPS}
+\date{25-02-2016}
+
+\begin{document}
+
+\maketitle
+
+\section*{Einführung}
+
+\begin{itemize}
+  \item Factory Setting
+  \item Ziel: Schwere Testfälle generieren + Basierend drauf die Anpassung der Positionen
+  \item Coevolution
+\end{itemize}
+
+
+\section*{Erklärung}
+
+\begin{itemize}
+  \item Erklärung am angehaltenen Spiel
+  \item Kurzes Beispiel in Normalzeit
+\end{itemize}
+
+\section*{Coevolutionarer Algorithmus}
+
+\begin{itemize}
+  \item Diagramm vom GA zeigen
+    \begin{itemize}
+      \item Codierung der Individuen
+      \item Fitness Evaluation - average time - wieso ist es nicht offensichtlich, dass mehr $\not=$ schlechter (Puffering)
+      \item Natural Selection Crossover + Mutation + Repopulation 
+    \end{itemize}
+\end{itemize}
+
+\section*{Live-Simulation - Worst-Worst Beispiel}
+
+\begin{itemize}
+  \item Hängenbleiben
+  \item Paarung + Dynamische Fitness
+  \item Warum W.w:
+    \begin{itemize}
+      \item Erkennung von undefiniertem Verhalten
+      \item 1. Ecken
+      \item 2. Rotation der Kugel beeinflusst die Wegfindung
+      \item 3. Blockieren der Position
+    \end{itemize}
+  \item Rückschlüsse ziehen
+\end{itemize}
+
+
+\section*{Videos}
+
+\begin{itemize}
+  \item Worst-Worst mit Graph
+  \item Worst-Best mit Graph
+\end{itemize}
+
+\end{document}

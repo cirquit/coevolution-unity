@@ -1,0 +1,5 @@
+curI = iFactory.GenIndividual("MMFTTTTNNN".ToCharArray());
+curP = pFactory.GenPosition(-6.375344f, -1.73807f, -0.8065434f, 5.873032f, 5.26042f, -9.208157f);
+
+
+Fitness: 2340
